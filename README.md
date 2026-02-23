@@ -6,7 +6,7 @@ The goal of this repository is to build strong foundational and applied knowledg
 
 ---
 
-## 🚀 Topics Covered
+## Topics Covered
 
 - Perceptron & Multi-Layer Perceptron (MLP)
 - Artificial Neural Networks (ANN)
@@ -19,7 +19,7 @@ The goal of this repository is to build strong foundational and applied knowledg
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - NumPy
@@ -31,7 +31,7 @@ The goal of this repository is to build strong foundational and applied knowledg
 
 ---
 
-## 📊 Key Learnings
+## Key Learnings
 
 - Understanding neural network architecture design
 - Implementing forward & backward propagation
@@ -40,13 +40,13 @@ The goal of this repository is to build strong foundational and applied knowledg
 
 ---
 
-## 🎯 Objective
+## Objective
 
 To build strong practical understanding of deep learning concepts and apply them to real-world datasets.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Akrish Chaurasia  
 B.Tech CSE (Dual Degree) | Data Analytics & Deep Learning Enthusiast
