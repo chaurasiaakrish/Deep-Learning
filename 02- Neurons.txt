@@ -1,0 +1,66 @@
+What is a Neuron ??
+
+At the heart of every Deep Learning model lies a neuron, a small, simple mathematical unit that can learn patterns from data.
+You can think of a neuron as a tiny decision-maker. It takes some inputs, performs a small calculation, and passes the result forward.
+
+Intuition!
+
+Imagine you’re trying to decide whether to buy a house. You might consider:
+
+Area (sq ft)
+Price
+Location score
+Each factor matters, but not equally. You might value location more than area, for example.
+A neuron does the same thing! It takes multiple inputs and assigns a weight to each one based on its importance
+
+The Math Behind a Neuron
+
+Here’s what a single neuron does:
+
+A neuron computes its output using the formula:
+
+output = (w₁ × x₁) + (w₂ × x₂) + (w₃ × x₃) + b
+
+Where:
+
+x₁, x₂, x₃ → input features
+(for example: area of a house, number of rooms, location score)
+w₁, w₂, w₃ → weights
+(they represent how important each input is)
+b → bias
+(a small adjustment that shifts the final result)
+output → raw output value
+(also called the neuron’s decision value)
+
+Example: House Price Scoring 🏠
+
+Assume we are predicting a house value using three features:
+
+Input     Value		Weight	 Contribution
+1000	Area (sq ft)	 0.02	1000 × 0.02 = 20
+3	Number of rooms	 5	3 × 5 = 15
+7	Location score	 10	7 × 10 = 70
+
+Bias (b) = 1
+
+Step-by-Step Calculation
+
+output = (1000 × 0.02) + (3 × 5) + (7 × 10) + 1
+Breaking it down:
+Area contribution = 20
+Rooms contribution = 15
+Location contribution = 70
+Bias = 1
+Now add everything:
+output = 20 + 15 + 70 + 1 = 106
+
+The value 106 is the neuron’s raw decision score
+It is not yet a final prediction
+This value is usually:
+Passed to an activation function (like ReLU or Sigmoid), or
+Sent to the next layer of neurons
+
+
+Each weight in a neuron determines the influence or importance of its corresponding input.
+A higher weight means that input has a stronger effect on the neuron’s output, while a lower (or negative) weight means it contributes less or inversely.
+In short — weights help the neuron learn which inputs matter more during training.

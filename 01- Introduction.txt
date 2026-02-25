@@ -1,0 +1,27 @@
+Deep learning is branch of Machine Learning inspired by the structure and functioning of human brain. 
+It allows computers to learn patterns and make decisions from large amounts of data, 
+automatically discovering important features without being explicitly told what to look for.
+
+Why Deep Learning?
+
+Can handle complex, high-dimensional data like images, text, and audio
+Learns non-linear patterns that traditional Machine Learning models often struggle with
+Performs automatic feature extraction, reducing the need for manual feature engineering
+How It Works (Intuitive)
+
+Think of teaching a child to recognize cats:
+
+Traditional approach (ML): You tell the child, “Cats have pointy ears, whiskers, and a tail.”
+Deep Learning approach: You show the child lots of cat pictures, and child figure out the important features on their own.
+DL achieves this using artificial neural networks, which are layers of interconnected “neurons” that process and transform data step by step.
+
+
+Deep Learning doesn’t rely on manually defined rules or features.
+Instead, it uses neural networks that automatically learn important patterns and features directly from raw data 
+(like images, text, or audio), making it different from traditional machine learning 
+where features are often hand-crafted.
+
+
+Note: Deep Learning doesn’t work with images, text, or sound directly, it first converts everything into numbers. 
+Neurons can only understand numbers, during training,
+the model learns the right weights and bias automatically by adjusting these numbers to reduce errors.
