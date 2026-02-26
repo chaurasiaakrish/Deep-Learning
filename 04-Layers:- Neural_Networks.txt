@@ -1,0 +1,40 @@
+a single neuron works:
+
+output = f.[(w₁ × x₁) + (w₂ × x₂) + ......... + (w₃ × x₃) + b]
+x → input features
+w → weights (importance of inputs)
+b → bias (shifts output regardless of inputs)
+
+Note: f(⋅) is the activation function, which introduces non-linearity by transforming the weighted sum into a meaningful signal the network can learn from.
+
+A neural network simply stacks many of these neurons together, arranging them into layers so they can learn richer patterns. It combines many small, simple units (neurons) to build something powerful.
+
+When you increase the number of hidden neurons (e.g., from 2 to 10):
+Each neuron learns a different feature/pattern from the input.
+More neurons → more capacity to capture non-linear, complex, or subtle relationships in data.
+The architecture becomes more powerful and expressive.
+
+
+A neural network is built by arranging layers in order:
+
+Input → Hidden Layer(s) → Output
+
+In this structure, information flows forward from the input to the output.
+This type of flow is called a feedforward network. And you may also hear the term MLP (Multilayer Perceptron). It’s just another name for the same idea.
+
+Note: The forward pass is the actual calculation through these layers, while feedforward refers to the overall architecture.
+
+Analogy: Understanding a Song
+Input Layer: Your ears receive sound components (beat, melody, lyrics).
+Hidden Layers: Your brain processes rhythm, harmony, meaning.
+Output Layer: You make a decision such as “like” or “dislike.”
+Just like neurons transform inputs step by step, the network processes features until it reaches a final output.
+
+Why Layers Matter
+The number of layers and the number of neurons in each layer are hyperparameters, design choices you can adjust to improve performance.
+
+A well-designed architecture often determines how effectively the model learns.
+
+Feedforward architecture V/S forward pass:
+feedforward architecture involves information flowing from the input to the output layer. However, it could be improved by explicitly mentioning the arrangement of layers (Input -> Hidden -> Output) to fully capture the essence of the architecture.
+forward pass is the step-by-step calculation through the layers to produce a prediction.

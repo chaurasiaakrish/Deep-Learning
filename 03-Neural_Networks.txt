@@ -1,0 +1,35 @@
+A single neuron can make simple decisions, but to solve complex problems like recognizing faces, translating languages, or detecting objects, we need many neurons working together.
+That’s where a Neural Network comes in!
+How It’s Structured
+
+A neural network is organized into layers:
+
+Input Layer: Takes the raw data (like image pixels, text, or numbers).
+Hidden Layers: The “thinking” part! These layers learn complex patterns step by step.
+Output Layer: Gives the final prediction (like Cat 🐱 or Dog 🐶).
+
+How It Works:
+
+Think of it as a team solving a problem:
+
+1 :- The Input layer provides raw facts.
+
+2 :- The Hidden layers discuss and refine those facts, learning deeper meanings.
+Hidden layers are the processing units of a neural network.
+They take the input data and, through multiple neurons and weights, extract deeper and more abstract features (like shapes, edges, or meanings) that help the network make accurate predictions.
+
+3 :- The Output layer gives the final answer.
+
+
+For example, When identifying a cat image:
+The first layer might detect edges,
+The next layer might detect shapes like ears or eyes,
+The final layer combines all that to say — “It’s a Cat!”
+
+
+Each neuron in one layer is connected to neurons in the next layer. 
+These connections have weights that determine how much influence one neuron has on another.
+
+
+Why do we need more than one neuron to solve complex problems?
+Because a single neuron can only learn simple (linear) relationships, while complex problems require learning multiple intermediate features and non-linear combinations.
