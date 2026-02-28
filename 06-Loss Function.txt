@@ -1,0 +1,11 @@
+A loss function tells the network how wrong its prediction was. It’s basically the network’s error score.
+
+Why Do We Need It?
+The network needs feedback to learn:
+
+“Am I improving?”
+“Was this prediction better or worse than before?”
+Loss functions provide this feedback so the model knows how to adjust its weights.
+
+It squares the difference betweem the prediction and the actual value:
+Loss = average of (prediction – actual)²
